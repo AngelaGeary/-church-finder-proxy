@@ -1,0 +1,16 @@
+# Netlify configuration for Church Finder proxy function
+#
+# If your Ghost theme repo IS the Netlify site, place this at the repo root.
+# If your Netlify site is separate, place this in that repo instead and
+# update the functions directory path accordingly.
+
+[functions]
+  directory = "netlify/functions"
+
+# Optional: redirect the proxy path for a cleaner URL
+# Uncomment to use /api/churches instead of /.netlify/functions/airtable-proxy
+#
+# [[redirects]]
+#   from = "/api/churches"
+#   to = "/.netlify/functions/airtable-proxy"
+#   status = 200
