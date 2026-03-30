@@ -15,7 +15,7 @@ const AIRTABLE_API_URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/${AIRTABL
 
 // Allowed origins — update with your actual domain(s)
 const ALLOWED_ORIGINS = [
-    'https://your-ghost-site.com',  // ← CHANGE THIS to your Ghost domain
+    'https://www.evangelical-times.org',  // ← CHANGE THIS to your Ghost domain
     'http://localhost:2368',         // Ghost local dev
 ];
 
